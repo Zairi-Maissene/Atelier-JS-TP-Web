@@ -1,0 +1,15 @@
+body{display:flex;
+    justify-content:space-around; 
+}
+li{
+    background-color:whitesmoke;
+    border:2px solid black;
+    border-radius:5px;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+li span{
+    margin-right: auto;
+}

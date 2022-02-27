@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word</title>
+   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="fw-bold shadow p-2" style="color:#0d6efd;text-align:center">Mini word</h1>
+    <input type="text" class="form-control" placeholder="Enter your text Here">
+    
+    <div class="row" style="margin-top:3rem;">
+        <div class="col form-floating">
+            <input type="color" id="couleur" class="form-control">
+            <label for="couleur">Color:</label>
+        </div>
+        <div class="col form-floating">
+            <input type="number" id="taille" class="form-control">
+            <label for="taille">Font-Size</label>
+        </div>    
+        <div class="col form-floating"> 
+            <select  id="font" class="form-select form-select-md">
+        
+            <option>fantasy</option>
+            <option >Arial</option>
+            <option>Times-New Roman</option>
+            <option>Sans-Serif</option>
+       
+            </select>
+            <label for="font">Font-Family</label>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
